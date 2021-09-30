@@ -55,7 +55,7 @@
             <a class="dropdown-toggle padding-left-no padding-right-no" data-toggle="dropdown">
                 {if $user->isLogin}
                 <span class="access-hide">{$user->user_name}</span>
-                <span class="avatar avatar-sm"><img src="{$user->gravatar}"></span>
+                <span class="avatar avatar-sm"><img src="/images/Avatar.jpg"></span>
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
                 <li>
