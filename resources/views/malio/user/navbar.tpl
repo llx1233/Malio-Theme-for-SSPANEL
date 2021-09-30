@@ -21,7 +21,7 @@
     <li class="dropdown dropdown-list-toggle"></li>
     {/if}
     <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-        <img alt="image" src="{$user->gravatar}?d=retro" class="rounded-circle mr-1">
+        <img alt="image" src="/images/Avatar.jpg" class="rounded-circle mr-1">
         <div class="d-sm-none d-lg-inline-block">Hi, {$user->user_name}</div>
       </a>
       <div class="dropdown-menu dropdown-menu-right">
